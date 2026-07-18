@@ -1,0 +1,32 @@
+name: Check HTML File
+
+on:
+  push:
+
+jobs:
+  check-file:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Download Repository
+        uses: actions/checkout@v4
+
+      - name: Check index.html
+
+        run: |
+
+          if [ -f index.html ]
+
+          then
+
+            echo "HTML File Found"
+
+          else
+
+            echo "HTML File Missing"
+
+            exit 1
+
+          fi
