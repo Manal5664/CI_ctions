@@ -17,9 +17,6 @@ This repository contains a simple web project demonstrating the use of GitHub Ac
 ## Technologies Used
 
 - HTML5
+- javascript
 - GitHub
 - GitHub Actions
-
-## Author
-
-Manal Asghar
